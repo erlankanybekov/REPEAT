@@ -1,7 +1,7 @@
 package com.company;
 import java.awt.*;
 import java.util.Arrays;
-public class Dog extends Pet{
+public final class Dog extends Pet{
     private String name;
     private String breed;
     private String[] commands;
